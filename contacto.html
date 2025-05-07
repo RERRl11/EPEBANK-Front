@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EPEBANK - Contacto</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="/imagenes/LOGO-logo2-EPEBANK.png" type="image/png">
+</head>
+<body>
+    <div id="navbar-placeholder"></div>
+
+    <main>
+        <section class="contact-header">
+            <div class="container">
+                <h1>Contáctanos</h1>
+                <p>Estamos aquí para ayudarte con cualquier consulta o duda que tengas</p>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2><i class="fas fa-map-marker-alt"></i> Oficinas Principales</h2>
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-building"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Sede Central</h3>
+                                <address>
+                                    Av. Javier Prado 1234<br>
+                                    San Isidro, Lima<br>
+                                    <strong>Horario:</strong> L-V 9:00 - 18:00
+                                </address>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Atención Telefónica</h3>
+                                <p><strong>Central:</strong> (01) 234-5678</p>
+                                <p><strong>Servicio al cliente:</strong> 0800-12345</p>
+                                <p><strong>Emergencias:</strong> (01) 234-5678 Opc. 9</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Correo Electrónico</h3>
+                                <p><strong>Información:</strong> info@epebank.com</p>
+                                <p><strong>Soporte:</strong> soporte@epebank.com</p>
+                                <p><strong>Reclamos:</strong> reclamos@epebank.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-social">
+                            <h3>Síguenos en redes</h3>
+                            <div class="social-icons">
+                                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container">
+                        <h2><i class="fas fa-paper-plane"></i> Envíanos un mensaje</h2>
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Nombre completo</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="email">Correo electrónico</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Teléfono</label>
+                                    <input type="tel" id="phone" name="phone">
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Asunto</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="" disabled selected>Seleccione un asunto</option>
+                                    <option value="cuentas">Cuentas bancarias</option>
+                                    <option value="tarjetas">Tarjetas</option>
+                                    <option value="prestamos">Préstamos</option>
+                                    <option value="inversiones">Inversiones</option>
+                                    <option value="reclamo">Reclamo</option>
+                                    <option value="otros">Otros</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Mensaje</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            
+                            <div class="form-group checkbox-group">
+                                <input type="checkbox" id="contact-terms" name="terms" required>
+                                <label for="contact-terms">Acepto la <a href="#">Política de Privacidad</a></label>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-block">
+                                <i class="fas fa-paper-plane"></i> Enviar mensaje
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="map-section">
+            <div class="container">
+                <h2><i class="fas fa-map-marked-alt"></i> Nuestra Ubicación</h2>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.966834714363!2d-77.03307292404474!3d-12.093253088140384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c5f619ee3ec7%3A0x14206cb9cc452e4a!2sAv.%20Javier%20Prado%20Este%2C%20San%20Isidro%2015076!5e0!3m2!1ses-419!2spe!4v1620000000000!5m2!1ses-419!2spe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
