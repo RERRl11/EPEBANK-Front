@@ -53,7 +53,6 @@ function setupNavbar() {
     if (languageSelector) {
         languageSelector.addEventListener('change', (e) => {
             alert(`Idioma cambiado a: ${e.target.value}`);
-            // En una implementación real, redirigiría a la versión en el idioma seleccionado
         });
     }
 }
@@ -78,6 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+// Funcionalidad para los modales legales
 function setupLegalModals() {
     const modalTriggers = document.querySelectorAll('[data-modal]');
     const modals = document.querySelectorAll('.modal');
@@ -107,5 +107,5 @@ function setupLegalModals() {
     });
 }
 
-// Funcionalidad para los modales legales
+
 

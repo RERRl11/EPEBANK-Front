@@ -485,7 +485,7 @@ img {
 }
 
 .position {
-    color: #4fc3f7;
+    color: var(--secondary-color);
     font-weight: 500;
     margin-bottom: 15px;
 }
@@ -1160,7 +1160,7 @@ img {
     color: #1a3a8f;
 }
 
-/* Responsive */
+
 .mobile-menu-button {
     display: none;
     background: none;
@@ -1178,6 +1178,8 @@ img {
     transition: var(--transition);
 }
 
+
+/* Responsive */
 @media (max-width: 992px) {
     .nav-links {
         display: none;
