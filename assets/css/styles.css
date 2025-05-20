@@ -2,6 +2,7 @@
 :root {
     --primary-color: #0056b3;
     --secondary-color: #003366;
+    --nav-menu-selec-active:#4fc3f7;
     --accent-color: #ff6b00;
     --light-color: #f8f9fa;
     --dark-color: #212529;
@@ -157,7 +158,7 @@ img {
 }
 /* Navbar */
 .navbar {
-    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    background-color: var(--light-color);
     box-shadow: var(--box-shadow);
     position: sticky;
     top: 0;
@@ -204,7 +205,7 @@ img {
 .nav-links a {
     padding: 8px 12px;
     transition: var(--transition);
-    color: rgba(255, 255, 255, 0.9);
+    color: var(--primary-color);
     font-weight: 500;
     padding: 15px 20px;
     border-radius: 6px;
@@ -213,7 +214,7 @@ img {
 
 .nav-links a:hover, .nav-links a.active {
     background-color: rgba(255, 255, 255, 0.1);
-    color: white;
+    color: var(--nav-menu-selec-active);
 }
 
 .nav-links a i {
@@ -267,7 +268,7 @@ img {
 }
 
 .dropdown-menu li a:hover {
-    background-color: var(--light-color);
+    background-color: var(--absoluteblack-color);
     color: #1a3a8f;
 }
 
@@ -286,8 +287,8 @@ img {
 
 .language-selector select {
     background-color: rgba(255, 255, 255, 0.1);
-    color: white;
-    border: none;
+    color: var(--primary-color);
+    border-color: var(--border-radius);
     padding: 8px 15px;
     border-radius: 20px;
     appearance: none;
